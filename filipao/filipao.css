@@ -1,0 +1,62 @@
+body {
+    background-color: #C4E1E6;
+    background-repeat: repeat-y;
+    background-position: right center;
+    font-family: Arial;
+}
+#geral {
+width: 80%;
+margin: auto ;
+background-color : #ffffff;
+color : #333333;
+border: 1px solid gray;
+}
+#cabecalho, #esquerda, #conteudo, #rodape, #direita{
+
+padding: 10px ;
+}
+#cabecalho {
+background-color: #dddddd;
+border-bottom: 1px solid gray;
+text-align: center;
+
+}
+#esquerda{
+float: left; width: 20%;
+text-align: center;
+
+}
+#direita{
+    float: right; width: 20%; ;
+
+}
+.Contato{
+    text-align: center;
+    
+}
+#conteudo {
+float: left; width: 50%;
+border-left: 1px solid gray;
+border-right: 2px solid gray;
+
+}
+img {
+float: right; width: 80%; height: auto;
+border-bottom: 3px solid gray;
+border-left: 3px solid gray;
+border-top: 3px solid gray;
+border-right: 3px solid gray;
+margin: auto 0;
+}
+#rodape {
+clear: both; color: #333333;
+background-color: #dddddd;
+border-top: 1px solid gray;
+text-align: left;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+

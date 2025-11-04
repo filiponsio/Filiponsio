@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+  
+    background-image: url('imagen/fundo_final.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: right;
+    background-color: #ccbb99;
+    padding: 10px; 
+}
+
+
+p {
+    color: #ccbb99;
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+
+h6 {
+    font-style: italic;
+    background-color: #ccbb99;
+    text-align: center; 
+    padding: 5px; 
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
